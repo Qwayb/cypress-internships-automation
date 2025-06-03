@@ -1,0 +1,21 @@
+{
+  "main_url": "https://dev.profteam.su/login",
+  "employer_login": "testerEmployer",
+  "employer_password": "Password1",
+  "student_login": "testStudent",
+  "student_password": "Password1",
+  "internship_title": "Frontend разработчик стажер",
+  "internship_description": "Стажировка по frontend разработке с изучением React",
+  "internship_requirements": "Знание HTML, CSS, JavaScript",
+  "internship_duties": "Разработка компонентов интерфейса",
+  "internship_duration": "3 месяца",
+  "internship_salary": "30000",
+  "internship_location": "Москва",
+  "internship_title_incorrect": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+  "internship_description_incorrect": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.",
+  "search_query": "Frontend",
+  "search_query_incorrect": "[]",
+  "workspace_comment": "Отличная работа! Продолжайте в том же духе.",
+  "workspace_task": "Создать компонент кнопки",
+  "workspace_task_description": "Необходимо создать переиспользуемый компонент кнопки с различными стилями"
+}

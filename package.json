@@ -1,15 +1,55 @@
 {
-  "name": "cypress-internships-testing",
+  "name": "cypress-internships-tests",
   "version": "1.0.0",
+  "description": "Автоматизированные тесты для модуля Стажировки системы ProfTeam",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:record": "cypress run --record",
+    "test:spec": "cypress run --spec 'cypress/e2e/internships.cy.js'",
+    "clean:reports": "rm -rf cypress/screenshots cypress/videos cypress/reports",
+    "pretest": "npm run clean:reports",
+    "posttest": "npm run generate:report",
+    "generate:report": "echo 'Report generation would go here'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "cypress",
+    "e2e",
+    "testing",
+    "automation",
+    "internships"
+  ],
+  "author": "Student Name",
+  "license": "MIT",
   "devDependencies": {
-    "cypress": "^14.4.0"
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "cypress-real-events": "^1.11.0",
+    "cypress-file-upload": "^5.0.8",
+    "@cypress/grep": "^4.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/cypress-internships-tests.git"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   }
 }
